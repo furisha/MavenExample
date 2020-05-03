@@ -1,0 +1,172 @@
+[1588439219.461][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 24064
+[1588439219.461][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1588439220.225][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1588439220.227][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1588439220.229][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1588439220.246][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\Furman\AppData\Local\Temp\scoped_dir11616_35162517\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Furman\AppData\Local\Temp\scoped_dir11616_1195338157" data:,
+[1588439221.880][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1588439223.893][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.129",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\Furman\\AppData\\Local\\Temp\\scoped_dir11616_1195338157"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54326"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "6e13f377c5e35bf38fad98c1754f45bb"
+}
+[1588439223.952][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] COMMAND Navigate {
+   "url": "https://prod.qacube.com/qacube/public-report/1eM7H5VZradg2wOtehqVA1paxYZ7KRR-JZjwpGUo_cEtJqFIwckqs3Q0Zh_9BNmX"
+}
+[1588439223.952][INFO]: Waiting for pending navigations...
+[1588439223.955][INFO]: Done waiting for pending navigations. Status: ok
+[1588439224.283][INFO]: Waiting for pending navigations...
+[1588439224.405][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439224.507][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439224.608][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439224.826][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439224.928][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439225.030][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439225.136][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439225.251][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588439225.897][INFO]: Done waiting for pending navigations. Status: ok
+[1588439225.897][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] RESPONSE Navigate
+[1588439225.925][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] COMMAND MaximizeWindow {
+
+}
+[1588439225.925][INFO]: Waiting for pending navigations...
+[1588439225.929][INFO]: Done waiting for pending navigations. Status: ok
+[1588439225.930][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1588439228.184][INFO]: Waiting for pending navigations...
+[1588439228.651][INFO]: Done waiting for pending navigations. Status: ok
+[1588439228.651][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] RESPONSE MaximizeWindow {
+   "height": 754,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1588439228.660][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] COMMAND GetLog {
+   "type": "browser"
+}
+[1588439228.904][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] RESPONSE GetLog [ {
+   "level": "WARNING",
+   "message": "https://prod.qacube.com/qacube/public/generated/vendor/jquery/dist/jquery.min-4a356126b9573eb7bd1e9a7494737410.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrim...",
+   "source": "deprecation",
+   "timestamp": 1.588439228184e+12
+}, {
+   "level": "SEVERE",
+   "message": "https://prod.qacube.com/qacube/api/v1.0/management/milestones/timeseries?projectReleaseId=11364&userId=5&_=1588439224621 - Failed to load resource: the server responded with a status of 401 ()",
+   "source": "network",
+   "timestamp": 1.588439228184e+12
+}, {
+   "level": "SEVERE",
+   "message": "https://prod.qacube.com/qacube/api/v1.0/management/milestones/timeseries?projectReleaseId=11364&userId=5&_=1588439224627 - Failed to load resource: the server responded with a status of 401 ()",
+   "source": "network",
+   "timestamp": 1.588439228796e+12
+} ]
+[1588439228.979][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1588439228.979][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] RESPONSE SetTimeouts
+[1588439228.990][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] COMMAND CloseWindow {
+
+}
+[1588439233.382][INFO]: [6e13f377c5e35bf38fad98c1754f45bb] RESPONSE CloseWindow
